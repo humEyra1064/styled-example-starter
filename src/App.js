@@ -3,6 +3,7 @@ import Footer from "./components/footer/Footer";
 import Nav from "./components/nav/Nav";
 import Contact from "./components/pages/Contact";
 import Home from "./components/pages/Home";
+import NotFound from "./components/pages/NotFound";
 import People from "./components/pages/People";
 import Projects from "./components/pages/Projects";
 
@@ -16,6 +17,7 @@ const App = () => {
       <Route path="/people" element={<People/>}/>
       <Route path="/projects" element={<Projects/>}/>
       <Route path="/contact" element={<Contact/>}/>
+      <Route path="/*" element={<NotFound/>}/>
     </Routes>
     <Footer/>
     </BrowserRouter>

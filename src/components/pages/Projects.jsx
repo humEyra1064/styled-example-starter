@@ -1,10 +1,11 @@
-
+import { Div } from "../styles/Pprojects.styled"
+import "../styles/Pprojects.styled"
 
 const Projects = () => {
   return (
-    <div>
+    <Div>
       <h3>projects</h3>
-    </div>
+    </Div>
   )
 }
 

@@ -1,10 +1,11 @@
-
+import { Div } from "../styles/People.styled"
+import "../../components/styles/People.styled"
 
 const People = () => {
   return (
-    <div>
+    <Div>
       <h3>people</h3>
-    </div>
+    </Div>
   )
 }
 

@@ -1,10 +1,12 @@
+import "../../components/styles/Home.styled"
+import { Div } from "../../components/styles/Home.styled"
 
 
 const Home = () => {
   return (
-    <div>
+    <Div>
       <h3>home</h3>
-    </div>
+    </Div>
   )
 }
 

@@ -1,10 +1,11 @@
+import { Div } from "../styles/Contact.styled"
 
-
+import "../styles/Contact.styled"
 const Contact = () => {
   return (
-    <div>
+    <Div>
       <h3>contact</h3>
-    </div>
+    </Div>
   )
 }
 
